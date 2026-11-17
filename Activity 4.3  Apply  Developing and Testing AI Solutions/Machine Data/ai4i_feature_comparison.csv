@@ -1,0 +1,3 @@
+features,n,precision,recall,f1,pr_auc
+raw only,6,0.817,0.576,0.676,0.758
+raw + engineered,9,0.945,0.812,0.873,0.871

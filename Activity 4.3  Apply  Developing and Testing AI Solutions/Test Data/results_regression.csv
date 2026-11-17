@@ -1,0 +1,7 @@
+feature_set,n_features,algorithm,mae,rmse,r2
+A,44,Ridge,0.592,0.781,0.971
+A,44,RandomForest,0.565,0.742,0.973
+B,64,Ridge,0.609,0.793,0.97
+B,64,RandomForest,0.583,0.822,0.967
+C,154,Ridge,0.634,0.823,0.967
+C,154,RandomForest,0.572,0.815,0.968
