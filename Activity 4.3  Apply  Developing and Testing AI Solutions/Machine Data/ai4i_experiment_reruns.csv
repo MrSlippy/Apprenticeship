@@ -1,0 +1,10 @@
+experiment,configuration,precision,recall,f1,pr_auc,caught,false_alarms
+E1 baseline,"Random forest, raw features",0.817,0.576,0.676,0.757,49,11
+E1 baseline,"Logistic regression, raw features",0.139,0.8,0.237,0.383,68,420
+E2 leakage,"Random forest, raw + failure-mode flags",1.0,0.976,0.988,0.983,83,0
+E3 class weighting,"Random forest, raw, class_weight=None",0.87,0.471,0.611,0.788,40,6
+E4 tree depth,"Random forest, raw, min_samples_leaf=1",0.93,0.471,0.625,0.774,40,3
+E4 tree depth,"Random forest, raw, min_samples_leaf=50",0.222,0.941,0.359,0.524,80,281
+E5 regularisation,"Logistic regression, raw, C=0.001",0.116,0.753,0.202,0.305,64,486
+E5 regularisation,"Logistic regression, raw, C=1000",0.141,0.812,0.24,0.383,69,420
+E6 feature engineering,"Random forest, raw + calculated features",0.944,0.8,0.866,0.868,68,4
